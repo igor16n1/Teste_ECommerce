@@ -4,22 +4,33 @@
       <meta charset="utf-8"> 
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="dist/css/style.css" rel="stylesheet">
   </head>
   <body>
       <header>
-          <div id="topbar">
-            <input type="text" id="pesquisarSite" placeholder="Pesquisar no site">
-            <button type="button" id="btnPesquisar">></button>
-            <img src="img/header/ico_cruciani_H.png" alt="ícone logado" id="iconeLogado">
-            <div id="menuLoginUsuario">Olá, Carolina</div>
-            <div>|</div>
-            <a href="http://ecservice.rakuten.com.br/" id="menuSair">Sair</a>
-            <a href="http://ecservice.rakuten.com.br/" id="menuWhishlist"><img src="img/header/icon-whishlist.png" alt="ícone whishlist" id="iconeWhishlist">Whishlist</a>
-            <a href="http://ecservice.rakuten.com.br/" id="menuMinhaConta">Minha Conta</a>
-            <div>|</div>
-            <a href="http://ecservice.rakuten.com.br/" id="menuMeusPedidos">Meus Pedidos</a>
-            <button type="button" id="menuMinhaSacola"><img src="img/header/icon-Mybag.png" alt="ícone minha sacola" id="iconeMinhaSacola">Minha sacola (0)</button>
-          </div>
+          <div id="topbar" class="fonteHeader">
+            <div class="container-fluid">
+                <div class="row " >
+                    <div class="col-lg-4 text-center">
+                        <input type="text" id="pesquisarSite" placeholder="Pesquisar no site">
+                        <button type="button" id="btnPesquisar">
+                            <img src="img/header/arrow.png" alt="ícone pesquisar">
+                        </button>
+                    </div>
+                    <div class="col-lg-8 text-center vertical-center">
+                        <img src="img/header/ico_cruciani_H.png" alt="ícone logado" id="iconeLogado" class="floating-box">
+                        <div id="menuLoginUsuario" class="floating-box login">Olá, Carolina</div>
+                        <div class="floating-box loginEspacamento">|</div>
+                        <a href="http://ecservice.rakuten.com.br/" id="menuSair" class="linkBtn floating-box loginEspacamento">Sair</a>
+                        <a href="http://ecservice.rakuten.com.br/" id="menuWhishlist" class="linkBtn floating-box whishlistEspacamento"><img src="img/header/icon-whishlist.png" alt="ícone whishlist" id="iconeWhishlist">Whishlist</a>
+                        <a href="http://ecservice.rakuten.com.br/" id="menuMinhaConta" class="linkBtn floating-box  whishlistEspacamento">Minha Conta</a>
+                        <div class="floating-box loginEspacamento">|</div>
+                        <a href="http://ecservice.rakuten.com.br/" id="menuMeusPedidos" class="linkBtn floating-box loginEspacamento">Meus Pedidos</a>
+                        <button type="button" id="menuMinhaSacola" class="floating-box whishlistEspacamento"><img src="img/header/icon-Mybag.png" alt="ícone minha sacola" id="iconeMinhaSacola">Minha sacola (0)</button>
+                    </div>
+                </div>
+            </div>
+         </div>
           <div id="titulo">
             <h1 id="titulo">IPSUM LOREM</h1>
           </div>
