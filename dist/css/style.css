@@ -97,3 +97,165 @@
 .navMenuEspacamentoBtn{
     margin-left:10px;
 }
+#linhaDivHeader{
+    margin-top: 10px;
+    width: 99%;
+    margin-left: 15px;
+}
+@font-face {
+    font-family: myriadPro-Regular;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+.produtoDestaqueFonte{
+    font-family: myriadPro-Regular;
+    -webkit-text-fill-color: #000000 !Important;
+    position: relative;
+    left: 20%;
+}
+#produtoPrincipal{
+    margin-top: 15%;
+    margin-right: 5%;
+    float:right;
+}
+ul{
+    list-style-type: none !Important;
+}
+.produtoBtn{
+    width: 180px;
+    height: 100px;
+    background-color:#ffffff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e3e3e3 ;
+}
+.btnProdutoDesc{
+    width: 40px;
+    height: 40px;
+    background-color:#cccccc;
+    border-width: 0px;
+}
+.btnProdutoDescImg{
+    width: 12px;
+    height: 22px;
+}
+.btnProdutoDescVoltar {
+    transform: rotate(180deg);
+}
+ .fontePadrao{
+    font-family: "Arial", "Helvetica", sans-serif;
+ }
+.corProdutoDestaque{
+    color:#7f7f7f;
+}
+.btnGroupProdutoDestaque{
+    display: inline-block;
+}
+.box {
+    padding-right: 25%;
+}
+.fonteCenturyGothic {
+    font-family: centuryGothic;
+}
+.fonteProdutoTitulo{
+    -webkit-text-fill-color: #000000;
+    font-size: 25px;
+    font-weight: bold;    
+}
+.linkBtn2:link{
+    text-decoration: none !Important;
+    color: #7f7f7f !Important;
+}
+.linkBtn2:hover {
+    text-decoration: underline !Important;
+    color: #7f7f7f !Important;
+}
+.linkBtn2:visited {
+    color: #7f7f7f !Important;
+}
+.linkBtn2:active {
+    color: #7f7f7f !Important;
+}
+.produtoDestaqueLinhaDivisoria {
+    border-top:1px;
+    border-style: dotted;
+    border-color: #000;
+}
+.espacoProdutoPrincipalBloco{
+    position: relative;
+    top: 20px;
+    margin-right: 22%;
+    margin-left: 1%;
+}
+.fonteProdutoDescricao{
+    font-size: 15x;
+    font-weight: bold;
+}
+.floating-box-right {
+    float: right; 
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.inline-block{
+     display: inline-block;
+}
+.btnProdutoPrincipal{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-width: 0px;
+    position: relative;
+    top: -8px;
+}
+.btnProdutoPrincipalDescImg{
+    width: 10px;
+    height: 20px;
+}
+.boxCorTamanho{
+    width: 25px;
+    height: 25px;
+}
+.boxCor1{
+    background-color: #1a7ba8;
+}
+.boxCor2{
+    background-color: #ffed9d;
+}
+.boxCor3{
+    background-color: #211500;
+}
+.boxCor4{
+    background-color: #2c2c2c;
+}
+.boxCorPosicao{
+    position: relative;
+    top: 15px;
+}
+.font-Size-20px{
+    font-size: 20px;
+}
+.font-Size-14px{
+    font-size: 14px;
+}
+.btnAdicionarASacola{
+    width: 210px;
+    height: 60px;
+    background-color: #cd0020;
+    border-width: 0px;
+    position: absolute;
+    font-size: 16px;
+    right: 0px;
+}
+.color-White{
+    color: white;
+}
+.padding-left-0px{
+    padding-left: 0px;
+}
+.padding-right-0px{
+    padding-right: 0px;
+}
+.boxRedesSociaisProdutoPrincipal{
+    position: absolute;
+    top: 35px;
+}

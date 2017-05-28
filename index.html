@@ -10,7 +10,7 @@
       <header>
           <div id="topbar" class="fonteHeader">
             <div class="container-fluid">
-                <div class="row " >
+                <div class="row">
                     <div class="col-lg-4 text-center">
                         <input type="text" id="pesquisarSite" placeholder="Pesquisar no site">
                         <button type="button" id="btnPesquisar">
@@ -45,99 +45,122 @@
             <img src="img/header/divider_2.png" alt="menu navegação divisória 2" id="navMenuShopDiv2" class="navMenuEspacamento">
           </nav>
       </header>
+      <hr id="linhaDivHeader">
       <section id="produto">
-          <div id="produtoCol1">
-              <div id="produtoBtnVoltar">
+          <div class="container-fluid">
+            <div class="row">
+
+            <div class="col-lg-5">
+              <div class="produtoDestaqueFonte">
                 <
-                <a href="http://ecservice.rakuten.com.br/" id="produtoVoltar">Voltar</a>
+                <a href="http://ecservice.rakuten.com.br/" id="produtoVoltar" class="linkBtn">Voltar</a>
               </div>
               <img src="img/produtos/Produto2.png" alt="produto principal" id="produtoPrincipal">
           </div>
-          <div id="produtoCol2">
-              <ul id="produtoLista">
-                  <li><img src="img/produtos/Produto7.png" alt="produto lista 1" id="produtoLista1"></li>
-                  <li><img src="img/produtos/Produto3.png" alt="produto lista 2" id="produtoLista2"></li>
-                  <li><img src="img/produtos/Produto4.png" alt="produto lista 3" id="produtoLista3"></li>
-                  <li><img src="img/produtos/Produto5.png" alt="produto lista 4" id="produtoLista4"></li>
-                  <li><img src="img/produtos/Produto6.png" alt="produto lista 5" id="produtoLista5"></li>
+          <div class="col-lg-2">
+              <ul>
+                  <li><button type="button" id="btnProdutoLista1" class="produtoBtn"><img src="img/produtos/Produto7.png" alt="produto lista 1" ></button></li>
+                  <li><button type="button" id="btnProdutoLista1" class="produtoBtn"><img src="img/produtos/Produto3.png" alt="produto lista 2" ></button></li>
+                  <li><button type="button" id="btnProdutoLista1" class="produtoBtn"><img src="img/produtos/Produto4.png" alt="produto lista 3" ></button></li>
+                  <li><button type="button" id="btnProdutoLista1" class="produtoBtn"><img src="img/produtos/Produto5.png" alt="produto lista 4" ></button></li>
+                  <li><button type="button" id="btnProdutoLista1" class="produtoBtn"><img src="img/produtos/Produto6.png" alt="produto lista 5" ></button></li>
               </ul>
           </div>
-          <div id="produtoCol3">
-              <div id="produtoCol3lin1">
-                  <div id="produtoCol3lin1BtnVoltar">
-                      <button type="button" id="btnProdutoCol3Voltar"><</button>
-                      Anterior
+          <div class="col-lg-5">
+              <div class="row">
+                  <div class="col-lg-6">
+                      <button type="button" class="btnProdutoDesc" id="btnProdutoCol3Voltar">
+                          <img src="img/header/arrow2.png" alt="menu produto seta voltar" id="produtoCol3lin1SetaVoltar" class="btnProdutoDescImg btnProdutoDescVoltar">
+                     </button>
+                     <div class="corProdutoDestaque fontePadrao btnGroupProdutoDestaque">Anterior</div>
                   </div>
-                  <div id="produtoCol3lin1BtnProximo">
-                      <button type="button" id="btnProdutoCol3Proximo">></button>
-                      Próximo
+                  <div class="col-lg-6 box text-right">
+                      <div class="corProdutoDestaque fontePadrao btnGroupProdutoDestaque">Próximo</div>
+                      <button type="button" class="btnProdutoDesc" id="btnProdutoCol3Proximo">
+                          <img src="img/header/arrow2.png" alt="menu produto seta voltar" id="produtoCol3lin1SetaVoltar" class="btnProdutoDescImg ">
+                      </button>
                   </div>
               </div>
-              <div id="produtoCol3lin2">
-                  <div id="produtoCol3lin2Titulo">
+              <div class="row espacoProdutoPrincipalBloco">
+                  <div class="fonteCenturyGothic fonteProdutoTitulo">
                       Square Bag Calfskin razza print with chain
                   </div>
-                  <div id="produtoCol3lin2TituloID">
+                  <div class="fontePadrao corProdutoDestaque">
                       AD13.210
                   </div>
-                  <div id="produtoCol3lin2Texto">
-                      square bag with plaque/magnet fastening and gold chain. Leather surface treated with ray-effect resin. Gold-plated brass logo on front.
-                      <a href="http://ecservice.rakuten.com.br/" id="produtoCol3lin2BtnLeiaMais">Leia mais</a>
+                  <br>
+                  <div class="fonteCenturyGothic corProdutoDestaque fonteProdutoDescricao">
+                      square bag with plaque/magnet fastening and gold chain. Leather surface treated with ray-effect resin. Gold-plated brass logo on front. 
                   </div>
+                  <br>
+                  <a class="linkBtn2 fonteCenturyGothic corProdutoDestaque fonteProdutoDescricao floating-box-right" href="http://ecservice.rakuten.com.br/" id="produtoCol3lin2BtnLeiaMais">Leia mais</a>
+                  <br>
+                  <hr class="produtoDestaqueLinhaDivisoria">
               </div>
-              <div id="produtoCol3lin3">
-                  <div id="produtoCol3lin3CorTitulo">
+              <div class="row espacoProdutoPrincipalBloco">
+                  <div class="fonteCenturyGothic inline-block">
                     Cor:
                   </div>
-                  <div id="produtoCol3lin3CorNome">
+                  <div class="fonteCenturyGothic font-weight-bold inline-block">
                     Beige
                   </div>
-                  <div id="produtoCol3lin3Cor1">
-                    
+                  <br>
+                  <div class="boxCorPosicao">
+                    <div class="boxCorTamanho boxCor1 inline-block"></div>
+                    <div class="boxCorTamanho boxCor2 inline-block"></div> 
+                    <div class="boxCorTamanho boxCor3 inline-block"></div>               
+                    <div class="boxCorTamanho boxCor4 inline-block"></div>                   
+                    <div class="inline-block">
+                        <button class="btnProdutoPrincipal" type="button">
+                            <img class="btnProdutoPrincipalDescImg" src="img/header/arrow3.png" alt="botão cor avançar">
+                        </button>
+                    </div>
                   </div>
-                  <div id="produtoCol3lin3Cor2">
-                    
-                  </div>
-                  <div id="produtoCol3lin3Cor3">
-                    
-                  </div>
-                  <div id="produtoCol3lin3Cor4">
-                    
-                  </div>
-                  <button type="button" id="produtoCol3lin3Btn"><img src="img/header/arrow2.png" alt="botão cor avançar" id="produtoCol3lin3Img"></button>
+                  <br>
+                  <hr class="produtoDestaqueLinhaDivisoria">
               </div>
-              <div id="produtoCol3lin4">
-                  <div id="produtoCol3lin4ValorAntigo">
-                    R$ 281,00
-                  </div>
-                  <div id="produtoCol3lin4ValorNovo">
-                    R$ 261,00
-                  </div>
-                  <div id="produtoCol3lin4ValorParcela">
-                    3X de
-                  </div>
-                  <div id="produtoCol3lin4ValorParcelaValor">
-                    R$ 261,00
-                  </div>
-                  <div id="produtoCol3lin4ValorParcelaJuros">
+              <div class="row espacoProdutoPrincipalBloco fonteCenturyGothic">
+                  <div class="col-lg-6 padding-left-0px">
+                    R$ 281,00<br>
+                    R$ 261,00<br>
+                    3X de <span class="font-Size-20px">R$ 261,00</span><br>
                     sem juros
                   </div>
-                  <button type="button" id="produtoCol3lin4ValorBtn">ADICIONAR À SACOLA ></button>
-                  <a href="http://ecservice.rakuten.com.br/" id="produtoCol3lin4ValorWhishlist"><img src="img/header/icon-whishlist.png" alt="ícone whishlist" id="produtoCol3lin4ValorIconeWhishlist"> + Whishlist</a>
+                  <div  class="col-lg-6 padding-right-0px">
+                    <button type="button" class="btnAdicionarASacola fontePadrao font-weight-bold color-White">ADICIONAR <br>À SACOLA ></button>
+                  </div>
               </div>
-              <div id="produtoCol3lin5">
-                   <div id="produtoCol3linRedesSociais">
-                      <div id="produtoCol3linRedesSociaisFBCurtir"><img src="img/body/FB_curtir.png" alt="ícone Facebook curtir" id="produtoCol3linRedesSociaisIconeFBCurtir"></div>
-                      <div id="produtoCol3linRedesSociaisFBCurtirNum"><img src="img/body/FB_num.png" alt="ícone Facebook curtir número" id="produtoCol3linRedesSociaisIconeFBCurtirNum"></div>
-                      <div id="produtoCol3linRedesSociaisGP"><img src="img/body/GP_icon.png" alt="ícone Google+" id="produtoCol3linRedesSociaisIconeGP"></div>
-                      <div id="produtoCol3linRedesSociaisGPNum"><img src="img/body/GP_num.png" alt="ícone Google+ número" id="produtoCol3linRedesSociaisIconeGPNum"></div>
-                      <div id="produtoCol3linRedesSociaisPin"><img src="img/body/Pin_icon.png" alt="ícone Pin" id="produtoCol3linRedesSociaisIconePin"></div>
-                      <div id="produtoCol3linRedesSociaisTweet"><img src="img/body/Tweeter_icon.png" alt="ícone Tweet" id="produtoCol3linRedesSociaisIconeTweet"></div>
-                      <div id="produtoCol3linRedesSociaisTweetNum"><img src="img/body/Tweeter_num.png" alt="ícone Tweet número" id="produtoCol3linRedesSociaisIconeTweetNum"></div>
-                      <div id="produtoCol3linRedesSociaisEmail"><img src="img/body/email.png" alt="ícone Email" id="produtoCol3linRedesSociaisIconeEmail"></div>
+
+
+
+
+
+              <div class="row espacoProdutoPrincipalBloco fonteCenturyGothic">
+                    <div class="floating-box-right">
+                        <a class="linkBtn font-Size-14px" href="http://ecservice.rakuten.com.br/">
+                            <img src="img/header/icon-whishlist.png" alt="ícone whishlist"> + Whishlist
+                        </a>
+                    </div>
+                   <div class="boxRedesSociaisProdutoPrincipal">
+                      <div class="inline-block"><img src="img/body/FB_curtir.png" alt="ícone Facebook curtir"></div>
+                      <div class="inline-block"><img src="img/body/FB_num.png" alt="ícone Facebook curtir número"></div>
+                      <div class="inline-block"><img src="img/body/GP_icon.png" alt="ícone Google+"></div>
+                      <div class="inline-block"><img src="img/body/GP_num.png" alt="ícone Google+ número"></div>
+                      <div class="inline-block"><img src="img/body/Pin_icon.png" alt="ícone Pin"></div>
+                      <div class="inline-block"><img src="img/body/Tweeter_icon.png" alt="ícone Tweet"></div>
+                      <div class="inline-block"><img src="img/body/Tweeter_num.png" alt="ícone Tweet número"></div>
+                      <div class="inline-block"><img src="img/body/email.png" alt="ícone Email"></div>
                   </div>
               </div>
           </div>
+
+
+
+
+
+            </div>
+          </div>
+         
       </section>
       <section id="vendas">
             <div id="vendasFacebook">
