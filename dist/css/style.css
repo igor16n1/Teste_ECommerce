@@ -234,8 +234,23 @@ ul{
 .font-Size-20px{
     font-size: 20px;
 }
+.font-Size-17px{
+    font-size: 17px;
+}
+.font-Size-16px{
+    font-size: 16px;
+}
 .font-Size-14px{
     font-size: 14px;
+}
+.font-Size-12px{
+    font-size: 12px;
+}
+.font-Size-11px{
+    font-size: 11px;
+}
+.font-Size-10px{
+    font-size: 10px;
 }
 .btnAdicionarASacola{
     width: 210px;
@@ -275,4 +290,15 @@ ul{
 #empresaFooter{
     background-color:#ffffff;
     padding-top: 20px;
+}
+.tituloCompra{
+    font-family: centuryGothic;
+    -webkit-text-fill-color: #000000;
+    font-size: 25px;
+}
+.fonte-cor-Preto{
+    color: #000000!Important;
+}
+.fonte-cor-Vinho{
+    color: #cd0020!Important;
 }
