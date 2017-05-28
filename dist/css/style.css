@@ -259,3 +259,20 @@ ul{
     position: absolute;
     top: 35px;
 }
+#vendas{
+    background-color:#efede8;
+    position: relative;
+    top: 35px;
+}
+#vendasProdutosGarantia{
+    background-color:#ffffff;
+    padding-top: 20px;
+}
+#infoFooter{
+    background-color:#efede8;
+    padding-top: 20px;
+}
+#empresaFooter{
+    background-color:#ffffff;
+    padding-top: 20px;
+}
