@@ -401,3 +401,21 @@ ul{
     margin: auto;
     text-align: center;
 }
+.imgProdutosVistos{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    top: 40px;
+}
+.btnFB{
+    background-color:transparent;
+    border-width: 0px;
+}
+.sizeFBPhoto{
+    width: 80px;
+    height: 80px;
+}
+.sizeFBInput{
+    width: 200px;
+    height: 40px;
+}
