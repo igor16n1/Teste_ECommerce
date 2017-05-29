@@ -4,14 +4,14 @@
     left: 1%;
     background-color: #f6f6f6;
 }
-#pesquisarSite{
+.pesquisarSite{
     border: transparent;
     background-color:#d9d9d9;
     height: 30px;
     width: 45%;
     padding-left: 10px;
 }
-#btnPesquisar{
+.btnPesquisar{
     height: 30px;
     width: 30px;
     background-color:#f2f2f2;
@@ -267,6 +267,15 @@ ul{
     font-size: 16px;
     right: 0px;
 }
+.btnComprarTodos{
+    width: 120px;
+    height: 60px;
+    background-color: #cd0020;
+    border-width: 0px;
+    position: absolute;
+    font-size: 16px;
+    right: 0px;
+}
 .color-White{
     color: white;
 }
@@ -378,11 +387,11 @@ ul{
 }
 .boxInstagramBtn{
     position: relative;
-    top: 40px;
+    top: 70px;
 }
 .boxProdutosVistosBtn{
     position: relative;
-    top: 100px;
+    top: 140px;
 }
 .listaAlinhamentoHorizontalRedesSociais li {
     float: left;

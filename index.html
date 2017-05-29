@@ -12,8 +12,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-4 text-center">
-                        <input type="text" id="pesquisarSite" placeholder="Pesquisar no site">
-                        <button type="button" id="btnPesquisar">
+                        <input type="text" class="pesquisarSite" placeholder="Pesquisar no site">
+                        <button type="button" class="btnPesquisar">
                             <img src="img/header/arrow.png" alt="ícone pesquisar">
                         </button>
                     </div>
@@ -309,7 +309,7 @@
                                     </div>
                                     <div class="font-weight-bold font-Size-17px fonteCenturyGothic">R$ 300,00</div>
                                 </div>
-                                <button type="button" class="fontePadrao font-Size-14px font-weight-bold compraSomaPosicao2">COMPRAR TODOS</button>
+                                <button type="button" class="fontePadrao font-Size-14px font-weight-bold compraSomaPosicao2 btnComprarTodos fontePadrao font-weight-bold color-White">COMPRAR<br>TODOS</button>
                             </div>
                         </li>
                     </ul>
@@ -359,7 +359,7 @@
                             <div class="vertical-center boxCompreJuntoPos">
                                 <div class="font-weight-bold font-Size-17px fonteCenturyGothic">=</div>
                                 <div class="font-weight-bold font-Size-17px fonteCenturyGothic compraSomaPosicao">R$ 300,00</div>
-                                <button type="button" class="fontePadrao font-Size-14px font-weight-bold compraSomaPosicao2">COMPRAR TODOS</button>
+                                <button type="button" class="fontePadrao font-Size-14px font-weight-bold compraSomaPosicao2 btnComprarTodos fontePadrao font-weight-bold color-White">COMPRAR TODOS</button>
                             </div>
                         </li>
                     </ul>
@@ -422,38 +422,26 @@
                     </div>
                     <ul class=" listaAlinhamentoHorizontal alinhamentoPromocaosItems2">
                         <li class="boxInstagramBtn">
-                            <button type="button" id="vendasInstagrambtnVoltar"><img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasInstagramVoltar"></button>
+                            <button type="button" class="btnProdutoDesc" id="vendasInstagrambtnVoltar">
+                                <img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasInstagramVoltar" class="btnProdutoDescImg btnProdutoDescVoltar">
+                            </button>
                         </li>
                         <li>
                             <img src="img/Instagram/Instagram1.png" alt="produto Instagram lista 1">
-                            <div>
-                                ipsun loren
-                                <img src="img/body/Instagram_icon.png" alt="ícone Instagram">
-                            </div>
                         </li>
                         <li>
                             <img src="img/Instagram/Instagram2.png" alt="produto Instagram lista 2">
-                            <div>
-                                ipsun loren
-                                <img src="img/body/Instagram_icon.png" alt="ícone Instagram">
-                            </div>
                         </li>
                         <li>
                             <img src="img/Instagram/Instagram3.png" alt="produto Instagram lista 3">
-                            <div>
-                                ipsun loren
-                                <img src="img/body/Instagram_icon.png" alt="ícone Instagram">
-                            </div>
                         </li>
                         <li>
                             <img src="img/Instagram/Instagram4.png" alt="produto Instagram lista 4">
-                            <div>
-                                ipsun loren
-                                <img src="img/body/Instagram_icon.png" alt="ícone Instagram">
-                            </div>
                         </li>
                         <li class="boxInstagramBtn">
-                            <button type="button" id="vendasInstagrambtnAvancar"><img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasInstagramAvancar"></button>
+                            <button type="button"  class="btnProdutoDesc" id="vendasInstagrambtnAvancar">
+                                <img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasInstagramAvancar" class="btnProdutoDescImg">
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -465,7 +453,9 @@
                     </div>
                     <ul class="fonteCenturyGothic  listaAlinhamentoHorizontal alinhamentoPromocaosItems3">
                         <li class="boxProdutosVistosBtn">
-                            <button type="button" id="vendasProdutosVistosbtnVoltar"><img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasProdutosVistosVoltar"></button>
+                            <button type="button"  class="btnProdutoDesc" id="vendasProdutosVistosbtnVoltar">
+                                <img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasProdutosVistosVoltar" class="btnProdutoDescImg btnProdutoDescVoltar">
+                                </button>
                         </li>
                         <li>
                             <div class="boxProdutoPromocao2">
@@ -523,7 +513,9 @@
                             </div>
                         </li>
                         <li class="boxProdutosVistosBtn">
-                            <button type="button" id="vendasProdutosVistosbtnVoltar"><img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasProdutosVistosAvancar"></button>
+                            <button type="button"  class="btnProdutoDesc" id="vendasProdutosVistosbtnVoltar">
+                                <img src="img/header/arrow2.png" alt="botão cor avançar" id="vendasProdutosVistosAvancar" class="btnProdutoDescImg">
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -595,12 +587,13 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="fonteCenturyGothic font-Size-17px">News Letter</div>
-                        <input type="text" id="infoFooterNewsletterPesquisar">
-                        <button type="button" id="infoFooterNewsletterBtnPesquisar">></button>
+                        <input type="text" id="infoFooterNewsletterPesquisar" class="pesquisarSite">
+                        <button type="button" class="btnPesquisar">
+                            <img src="img/header/arrow.png" alt="ícone pesquisar">
+                        </button>
                     </div>
                 </div>
             </div>
-
         </div>
         <div id="empresaFooter">
             <div id="empresaFooterPagamentos">
