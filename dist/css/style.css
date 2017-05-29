@@ -288,10 +288,12 @@ ul{
 #vendasProdutosGarantia{
     background-color:#ffffff;
     padding-top: 20px;
+    height: 120px;
 }
 #infoFooter{
     background-color:#efede8;
-    padding-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 #empresaFooter{
     background-color:#ffffff;
@@ -314,16 +316,79 @@ ul{
     height: 80px;
 }
 .boxProdutoPromocao{
-    width: 180px;
-    height: 80px;
-    background-color: green;
+    width: 190px;
+    height: 320px;
+    background-color: white;
 }
-.listaAlinhamentoHorizontal ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.boxProdutoPromocao2{
+    width: 150px;
+    height: 320px;
+    background-color: white;
 }
 .listaAlinhamentoHorizontal li {
     float: left;
+    padding-right: 20px;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.painelVendasCentralizarConteudo {
+    display: block;
+    margin: auto;
+}
+.alinhamentoPromocaosItems1{
+    position: relative;
+    left: 10%;
+    right: 10%;
+}
+.alinhamentoPromocaosItems2{
+    position: relative;
+    left: 1%;
+    right: 1%;
+}
+.alinhamentoPromocaosItems3{
+    position: relative;
+    left: 3%;
+    right: 3%;
+}
+.boxProdutoAlinhamentoVertical{
+    position: relative;
+    top: 10px;
+}
+.boxProdutoAlinhamentoVerticalImagem{
+    position: relative;
+    top: 30px;
+}
+.boxPromocaoSemanaPos{
+    position: relative;
+    top: 120px;
+}
+.boxCompreJuntoPos{
+    position: relative;
+    top: 150px;
+}
+.compraSomaPosicao{
+    position: relative;
+    left: 25px;
+}
+.compraSomaPosicao2{
+    position: relative;
+    left: 50px;
+}
+.boxInstagramBtn{
+    position: relative;
+    top: 40px;
+}
+.boxProdutosVistosBtn{
+    position: relative;
+    top: 100px;
+}
+.listaAlinhamentoHorizontalRedesSociais li {
+    float: left;
+    padding-right: 10px;
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
